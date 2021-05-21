@@ -21,8 +21,10 @@ require('lv-matchup')
 require('lv-autopairs')
 require('lv-rnvimr')
 require('lv-which-key')
+<<<<<<< HEAD
 require('lv-lsp-rooter')
 require('lv-zen')
+require('lv-presence')
 
 -- extras
 if O.extras then
@@ -30,8 +32,6 @@ if O.extras then
     require('lv-hop')
     require('lv-colorizer')
 end
-
-
 
 -- TODO is there a way to do this without vimscript
 vim.cmd('source '..CONFIG_PATH..'/vimscript/functions.vim')
