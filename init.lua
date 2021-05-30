@@ -21,7 +21,6 @@ require('lv-matchup')
 require('lv-autopairs')
 require('lv-rnvimr')
 require('lv-which-key')
-<<<<<<< HEAD
 require('lv-lsp-rooter')
 require('lv-zen')
 require('lv-presence')
